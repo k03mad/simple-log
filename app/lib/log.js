@@ -23,7 +23,7 @@ export const logError = msg => [getDateYMDHMS(), convertToArray(msg)]
  * @param {any|any[]} msg
  * @returns {void}
  */
-export const exitError = msg => {
+export const logErrorExit = msg => {
     logError(msg);
     process.exit(1);
 };
