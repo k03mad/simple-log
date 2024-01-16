@@ -1,1 +1,1 @@
-# simple-log
+Simple log helpers for personal use
