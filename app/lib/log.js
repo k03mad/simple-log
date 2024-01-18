@@ -15,7 +15,7 @@ export const log = msg => convertToArray(msg)
  * @param {any|any[]} msg
  * @returns {void}
  */
-export const logError = msg => [getDateYMDHMS(), convertToArray(msg)]
+export const logError = msg => [`\n[${getDateYMDHMS()}]`, convertToArray(msg)]
     .flat()
     .forEach(elem => console.error(elem));
 
