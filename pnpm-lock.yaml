@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@k03mad/simple-date':
-    specifier: 1.0.3
-    version: 1.0.3
+    specifier: 1.0.4
+    version: 1.0.4
 
 devDependencies:
   '@k03mad/eslint-config':
@@ -160,8 +160,8 @@ packages:
       - vue-eslint-parser
     dev: true
 
-  /@k03mad/simple-date@1.0.3:
-    resolution: {integrity: sha512-UNK2L1uIeeBoIbI/K5jiAPGJwe3GYUbSPhjvKYy8QtsnutYrIdf46NEzJ1/im1dfqggESnAcPaS3wVa2Gq9CyQ==}
+  /@k03mad/simple-date@1.0.4:
+    resolution: {integrity: sha512-Ma3pVI4m0pquUsUY4mIQGuSqCenQ4uUlXzZHpWurygtj8V5uZtEXIUkdCWNIXMVNQBSxjdV/PFtz/ajoKSU/nw==}
     engines: {node: '>=20'}
     dev: false
 
