@@ -1,6 +1,6 @@
 {
   "name": "@k03mad/simple-log",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "Simple log library",
   "maintainers": [
     "Kirill Molchanov <k03.mad@gmail.com"
@@ -16,10 +16,10 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@k03mad/simple-date": "1.1.1"
+    "@k03mad/simple-date": "1.2.0"
   },
   "devDependencies": {
-    "@k03mad/eslint-config": "22.5.0",
+    "@k03mad/eslint-config": "23.0.0",
     "eslint": "8.57.0",
     "husky": "9.1.4"
   },
