@@ -8,20 +8,15 @@ const convertToArray = elem => Array.isArray(elem) ? elem : [elem];
  * @param {any|any[]} msg
  * @returns {void}
  */
-export const log = msg => console.log(
-    convertToArray(msg)
-        .join('\n'),
-);
+export const log = msg => convertToArray(msg)
+    .forEach(elem => console.log(elem));
 
 /**
  * @param {any|any[]} msg
  * @returns {void}
  */
-export const logError = msg => console.log(
-    [`\n[${getDateYMDHMS()}]`, convertToArray(msg)]
-        .flat()
-        .join('\n'),
-);
+export const logError = msg => [`[${getDateYMDHMS()}]`, ...convertToArray(msg)]
+    .forEach(elem => console.error(elem));
 
 /**
  * @param {any|any[]} msg
