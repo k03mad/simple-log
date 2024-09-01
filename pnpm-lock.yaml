@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@k03mad/simple-date':
-        specifier: 1.2.0
-        version: 1.2.0
+        specifier: 2.0.0
+        version: 2.0.0
     devDependencies:
       '@k03mad/eslint-config':
         specifier: 23.0.0
@@ -75,8 +75,8 @@ packages:
     resolution: {integrity: sha512-XUY1KpSFmVwPwlJxdkAssrEmdAJyDFbSGx6Xlwk8wGX4cnsiCZqqjdVVhFwioKP1fWgbB4/wYadfx8svwkPgzA==}
     engines: {node: '>=20'}
 
-  '@k03mad/simple-date@1.2.0':
-    resolution: {integrity: sha512-Xap6IBGEKAQmzmub7JSDZBvHUi1VMOZAjiAoTwJv8rK00P/46VVrnLkAnEN3zmg8AS6wBCSNGAOkARBsBw0t6Q==}
+  '@k03mad/simple-date@2.0.0':
+    resolution: {integrity: sha512-S0awuWgfhTFl33GHPHu4uPobYZva2D2zpZLfjjZ8wfyGpF+MDLi7dH6ADIAuNt34H5deriFLT27VBjPEJp3yFg==}
     engines: {node: '>=20'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1371,7 +1371,7 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@k03mad/simple-date@1.2.0': {}
+  '@k03mad/simple-date@2.0.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

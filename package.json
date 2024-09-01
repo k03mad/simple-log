@@ -16,7 +16,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@k03mad/simple-date": "1.2.0"
+    "@k03mad/simple-date": "2.0.0"
   },
   "devDependencies": {
     "@k03mad/eslint-config": "23.0.0",
