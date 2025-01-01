@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@k03mad/simple-date':
-        specifier: 4.1.1
-        version: 4.1.1
+        specifier: 4.2.0
+        version: 4.2.0
     devDependencies:
       '@k03mad/eslint-config':
         specifier: 28.2.0
@@ -98,8 +98,8 @@ packages:
     resolution: {integrity: sha512-kExE6VMUu+7V4MYwEgJE9IBkdBSibMb2SBiekPYL7xWznHWp2Un/jozAFwSurjYkq7HCjw8zO8LrGTkhuYa66Q==}
     engines: {node: '>=22'}
 
-  '@k03mad/simple-date@4.1.1':
-    resolution: {integrity: sha512-3ZRfIFQ9XwAGcy+ReSrpTYK8NqMGPtJb7q82gO8knFHIiRjCuC3gl3LdBNujOakhFTnKYg3SUnNZiGcaZsLfrQ==}
+  '@k03mad/simple-date@4.2.0':
+    resolution: {integrity: sha512-y4mdQVErFRlQ/0knqAaCx1e9wFf53tNlL8ONDIgJdGCvzpCmdgtnHvvE1iK9d/AtFSsaN3RaEeNSsw8vfL8AbA==}
     engines: {node: '>=22'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -964,7 +964,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@k03mad/simple-date@4.1.1': {}
+  '@k03mad/simple-date@4.2.0': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
